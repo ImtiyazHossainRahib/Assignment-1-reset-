@@ -58,7 +58,11 @@ nav li a {
     border-radius: 8px;
     background: #0D1321;
     padding: 21px 24px;
+    margin-top: 32px;
 }
+
+/* header section done  */
+
 
 /* common styles */
 .common-btn {
@@ -71,14 +75,26 @@ nav li a {
     border: 1px solid #0D1321;
     opacity: 0.8;
 }
+
+.common-title {
+    color: #0D1321;
+    font-size: 32px;
+    font-weight: 800;
+}
+
 .common-description {
     color: #0D1321;
     font-size: 16px;
     font-weight: 400;
-    margin: 0px 0px 32px 0px;
     opacity: 0.7;
 }
 
 .text-center {
     text-align: center;
+}
+
+/* main section related styles started  */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
 }
