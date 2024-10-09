@@ -71,15 +71,17 @@ nav li a {
     text-align: center;
     font-size: 20px;
     font-weight: 600;
-    border-radius: 8px;
     border: 1px solid #0D1321;
-    opacity: 0.8;
+    opacity: 0.7;
+    padding: 12px 20px;
+
 }
 
 .common-title {
     color: #0D1321;
     font-size: 32px;
     font-weight: 800;
+    margin-bottom: 24px;
 }
 
 .common-description {
@@ -87,14 +89,49 @@ nav li a {
     font-size: 16px;
     font-weight: 400;
     opacity: 0.7;
+    margin-top: 0px;
+}
+
+.goal-title {
+    color: rgba(13, 19, 33, 0.70);
+    font-size: 24px;
+    font-weight: 700;
 }
 
 .text-center {
     text-align: center;
 }
+.common-margin{
+    margin-bottom: 32px;
+}
 
 /* main section related styles started  */
 main {
     max-width: 1140px;
-    margin: 0 auto;
+    margin: 74px auto;
 }
+
+/* why web section styles */
+.future-goals {
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    padding: 80px 97px;
+}
+
+.goal1, .goal3  {
+    display: flex;
+    gap: 98px;
+    border-radius: 16px;
+    background: linear-gradient(90deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+    padding: 48px;
+}
+
+.goal2 {
+    display: flex;
+    border-radius: 16px;
+    background: linear-gradient(270deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+    padding: 48px 120px 48px 48px;
+    gap: 32px;
+}
+
+ 
