@@ -59,6 +59,7 @@ nav li a {
     background: #0D1321;
     padding: 21px 24px;
     margin-top: 32px;
+    cursor: pointer;
 }
 
 /* header section done  */
@@ -74,7 +75,7 @@ nav li a {
     border: 1px solid #0D1321;
     opacity: 0.7;
     padding: 12px 20px;
-
+    cursor: pointer;
 }
 
 .common-description-margin {
